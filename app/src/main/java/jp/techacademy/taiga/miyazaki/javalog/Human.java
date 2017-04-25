@@ -11,6 +11,7 @@ class Human extends Animal implements Thinkable {
         this.age = age;
         this.hobby = hobby;
     }
+
     @Override
     public void say() {
         Log.d("javatest", "私の名前は" + String.valueOf(name) + "です。年は、" + String.valueOf(age) + "歳です。");
